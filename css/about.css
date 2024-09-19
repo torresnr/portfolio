@@ -1,0 +1,57 @@
+head{
+    text-align: left;
+}
+
+.backgroundImage{
+    opacity: 50%;
+    text-align: right;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url(../images/backgroundAbout.jpg);
+}
+
+footer{
+    /* currently empty */
+    text-align: left;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: palegoldenrod;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+section{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    font-size: x-large;
+}
+
+#AboutMe{
+    border: 0.25em solid black;
+    background-color:burlywood;
+    padding: 0.25em;
+}
+
+#AboutMe p:first-of-type p:nth-of-type(2){
+    text-align: left;
+}
+
+#AboutMe p:nth-of-type(3){
+    text-align: center;
+}
+
+.codeAboutImage{
+    text-align: center;
+}
+
+.codeAboutImage img{
+    border: 0.5em solid lightgoldenrodyellow;
+}
