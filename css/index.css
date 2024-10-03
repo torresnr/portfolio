@@ -1,0 +1,101 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgrey;
+    font-size: 1em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 1000px;
+    grid-template-areas: 
+    "header header X"
+    "X bio bio"
+    "client client X"
+    "project project project"
+    "X footer footer";
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.navBar a {
+    font-size: 1.5em;
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    color: white;
+    text-decoration: underline white;
+}
+
+.contactHeader {
+    /* outline will be removed after construction purposes, needed to see grid */
+    outline: 3px dashed magenta;
+    display: grid;
+    grid-area: header;
+    justify-content: start;
+    background-image: linear-gradient(rgba(255,255,255,0.90), rgba(255,255,255,0.70)), url(../images/codeDSMA132Enrollment.png);
+}
+
+.bioPreview {
+    /* outline will be removed after construction purposes, needed to see grid */
+    outline: 3px dashed green;
+    display: grid;
+    justify-content: end;
+    grid-area: bio;
+}
+
+.references {
+    /* outline will be removed after construction purposes, needed to see grid */
+    outline: 3px dashed blue;
+    display: grid;
+    grid-area: client;
+    justify-content: start;
+}
+
+.projects {
+    /* outline will be removed after construction purposes, needed to see grid */
+    outline: 3px dashed purple;
+    display: grid;
+    grid-area: project;
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+.project {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: 2px dashed lightslategrey;
+    border-radius: 10px;
+}
+
+.project img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    /* outline will be removed after construction purposes, needed to see grid */
+    outline: 3px dashed red;
+    display: grid;
+    grid-area:footer;
+    justify-content: end;
+    grid-area: footer;
+}
+
+.btn {
+    background-color: palegoldenrod;
+    color: grey;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 2em auto;
+}
