@@ -1,0 +1,23 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkseagreen;
+    align-content: center;
+}
+
+form{
+    width: 600px;
+    height: 350px;
+    background-color: beige;
+    border-style: double;
+    align-content: center;
+}
+
+form label{
+    float: left;
+    width: 150px;
+}
+
+form input{
+    width: 50%;
+    margin-bottom: 10px;
+}
