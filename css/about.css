@@ -60,7 +60,7 @@ section{
     /* css for screen and min-width (tablets) */
 
     body{
-        font-size: 1.4em;
+        font-size: 0.8em;
     }
 
 }
@@ -71,7 +71,7 @@ section{
     /* css for screen and min-width (desktop) */
 
     body{
-        font-size: 1.8em;
+        font-size: 1em;
     }
 
 }
