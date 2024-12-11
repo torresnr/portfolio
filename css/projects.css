@@ -1,6 +1,8 @@
 html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: lightcyan;
+    background-color: palegoldenrod;
+    text-align: center;
+    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url(../images/backgroundAbout.jpg);
 }
 
 .projects {
@@ -15,8 +17,10 @@ html {
 .project {
     display: grid;
     grid-template-rows: max-content 200px 1fr;
-    border: 2px dashed lightslategrey;
     border-radius: 10px;
+    border: 0.25em solid black;
+    background-color:burlywood;
+    padding: 0.25em;
 }
 
 .project img {
@@ -35,3 +39,25 @@ html {
     text-align: center;
     margin: 2em auto;
 }
+
+/* tablets */
+@media screen and (min-width: 758px){
+    /* css for screen and min-width (tablets) */
+
+    body{
+        font-size: 1.4em;
+    }
+
+}
+/* media screen and min-width (tablets) end */
+
+/* desktop */
+@media screen and (min-width: 1024px){
+    /* css for screen and min-width (desktop) */
+
+    body{
+        font-size: 1.8em;
+    }
+
+}
+/* media screen and min-width (desktop) end */
